@@ -2,5 +2,12 @@
   "dependencies": {
     "gh": "^2.8.9",
     "pages": "^0.0.16"
+  },
+  "homepage": "https://suresh-full-stack-developer.github.io/ChatBot-2.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
